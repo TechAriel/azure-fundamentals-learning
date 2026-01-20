@@ -25,7 +25,7 @@
    - Network Security Group
    - Disk resources
      
-![resource group resources](Screenshots/resourcegroupresources.png)
+![Resource Group Overview](Screenshots/resourcegroupresources.png)
 
 ## Cleanup
 
