@@ -24,7 +24,8 @@
    - Virtual Network
    - Network Security Group
    - Disk resources
-![resource group resources](Screenshots/resource-group-resources.png)
+     
+![resource group resources](Screenshots/resourcegroupresources.png)
 
 ## Cleanup
 
