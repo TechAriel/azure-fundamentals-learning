@@ -14,6 +14,8 @@
 4. Reviewed configuration and selected **Create**.
 5. Waited for deployment to complete.
 
+![Vm Created](01-create-azure-resource/images/vmcreated.png)
+
 ## Verifying Resources Created
 
 1. Navigated to:
@@ -25,7 +27,7 @@
    - Network Security Group
    - Disk resources
      
-![Resource Group Overview](Screenshots/resourcegroupresources.png)
+![Resource Group Overview](01-create-azure-resource/images/resourcegroupresources.png)
 
 ## Cleanup
 
