@@ -26,6 +26,8 @@
    - Virtual Network
    - Network Security Group
    - Disk resources
+  
+![Resource Group Resources](01CreateAzureResource/screenshots/ResourceGroupResources.png)
 
 ## Cleanup
 
