@@ -1,6 +1,6 @@
 # Step-by-Step Implementation
 
-## Task 1: Create a Virtual Machine
+## Creating a Virtual Machine
 
 1. Signed into the Azure Portal.
 2. Navigated to:
@@ -14,7 +14,7 @@
 4. Reviewed configuration and selected **Create**.
 5. Waited for deployment to complete.
 
-## Task 2: Verify Resources Created
+## Verifying Resources Created
 
 1. Navigated to:
    - Home → Resource Groups → IntroAzureRG
@@ -24,6 +24,7 @@
    - Virtual Network
    - Network Security Group
    - Disk resources
+![resource group resources](Screenshots/resource-group-resources.png)
 
 ## Cleanup
 
