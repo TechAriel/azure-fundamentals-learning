@@ -27,7 +27,7 @@
    - Network Security Group
    - Disk resources
      
-![Resource Group Overview](01-create-azure-resource/images/resourcegroupresources.png)
+![Resource Group Overview](Screenshots/resourcegroupresources.png)
 
 ## Cleanup
 
