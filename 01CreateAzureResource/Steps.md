@@ -14,6 +14,9 @@
 4. Reviewed configuration and selected **Create**.
 5. Waited for deployment to complete.
 
+![Vm Created](01CreateAzureResource/screenshots
+/VmCreated.png)
+
 ## Verifying Resources Created
 
 1. Navigated to:
