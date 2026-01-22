@@ -11,6 +11,8 @@ az group create --name IntroAzureRG --location switzerlandnorth
 ```
 This resource group is used to logically group and manage all VM-related resources.
 
+![Resource Group Overview](screenshots/ResourceGroupOverview.png)
+
 ## Created a Linux Virtual Machine
 
 1. From Cloud Shell, I executed the following command to create a Linux VM:
@@ -24,6 +26,7 @@ az vm create \
   --admin-username azureuser \
   --generate-ssh-keys
 ```
+![Cli Created VM](screenshots/CliCreatedVm.png)
 2. Azure automatically provisioned:
    
   - Virtual Machine
