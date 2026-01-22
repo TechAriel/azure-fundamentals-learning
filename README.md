@@ -5,6 +5,7 @@ Each Folder represents a completed exercise or mini-project, including objective
 
 ## Exercises Completed
 - Creating an Azure Resource (Virtual Machine)
+- Creating an Azure Virtual Machine using Azure CLI and installing Nginx
 - More coming soon...
 
 ## Tools used
