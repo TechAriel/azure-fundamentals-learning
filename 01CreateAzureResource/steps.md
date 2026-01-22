@@ -27,7 +27,7 @@
    - Network Security Group
    - Disk resources
   
-![Resource Group Resources](01CreateAzureResource/screenshots/ResourceGroupResources.png)
+![Resource Group Resources](Screenshots/resourcegroupresources.png)
 
 ## Cleanup
 
