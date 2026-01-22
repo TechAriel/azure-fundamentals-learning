@@ -26,17 +26,31 @@ az vm create \
 ```
 2. Azure automatically provisioned:
    
-  . Virtual Machine
+  - Virtual Machine
+  - Public IP address
+  - Network Interface
+  - Virtual Network
+  - Network Security Group
+  - OS Disk
+3. SSH keys were generated automatically for secure access.
 
-Public IP address
+## Installed Nginx Using Custom Script Extension
 
-Network Interface
+1. Used the Azure VM Custom Script Extension to install and configure Nginx:
+```bash
+az vm extension set \
+  --resource-group "IntroAzureRG" \
+  --vm-name my-vm \
+  --name customScript \
+  --publisher Microsoft.Azure.Extensions \
+  --version 2.1 \
+  --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' \
+  --protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
+```
+2. The script performed the following actions:
 
-Virtual Network
-
-Network Security Group
-
-OS Disk
-
+   - Updated package lists using apt-get update
+   - Installed Nginx
+   - Modified the default web page to display a welcome message including the VM hostname
 
 
