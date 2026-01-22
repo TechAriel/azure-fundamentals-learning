@@ -53,4 +53,8 @@ az vm extension set \
    - Installed Nginx
    - Modified the default web page to display a welcome message including the VM hostname
 
+## Lessons Learned
+
+- Azure CLI enables fast, repeatable infrastructure creation.
+- VM extensions simplify post-deployment configuration.
 
