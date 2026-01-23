@@ -4,8 +4,9 @@ This repository documents my hands-on leaning journey through Azure Fundamentals
 Each Folder represents a completed exercise or mini-project, including objectives, steps performed, and key learnings.
 
 ## Exercises Completed
-- Creating an Azure Resource (Virtual Machine)
-- Creating an Azure Virtual Machine using Azure CLI and installing Nginx
+- Created an Azure Resource (Virtual Machine)
+- Created an Azure Virtual Machine using Azure CLI and installed Nginx
+- Configured Network Access using Network Security Groups
 - More coming soon...
 
 ## Tools used
