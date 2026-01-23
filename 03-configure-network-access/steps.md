@@ -81,8 +81,7 @@ curl --connect-timeout 5 http://$IPADDRESS
 ![Nginx Webpage Accessible](screenshots/NginxWebpageAccessible.png)
 
 3. Verified access through a web browser using the VM's public IP address.
-
-
+![Nginx Web Browser Accessible](screenshots/NginxWebBrowserAccessible.png)
 
 ## Cleanup
 To avoid unnecessary costs, deleted the resource group and all associated resources.
