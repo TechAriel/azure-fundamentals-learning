@@ -18,7 +18,7 @@ curl --connect-timeout 5 http://$IPADDRESS
 ```
 
 3. The request timed out, confirming that the VM was not accessible over HTTP.
-
+![Curl Timeout](screenshots/CurlTimeout.png)
 
 ## Reviewing Existing Netwok Security Group Rules
 1. Listed the Network Security Groups associated with the VM:
