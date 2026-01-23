@@ -44,6 +44,7 @@ az network nsg rule list \
 ```
 
 4. Observed the only SSH(port 22) was allowed by default
+![Nsg Rules Before](screenshots/NsgRulesBefore.png)
 
 ## Creating an Inbound HTTP Rule
 1. Created a new NSG rule to allow inbound HTTP traffic on port 80:
@@ -66,17 +67,18 @@ az network nsg rule list \
   --query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' \
   --output table
 ```
+![NSG Rules After](screenshots/NsgRulesAfter.png)
 
 ## Accessing the Web Server Successfully
 1. Retried the `curl` command after NSG rule propagation:
 ```bash
 curl --connect-timeout 5 http://$IPADDRESS
 ```
-
 2. Retrieved the expected HTML response from the Nginx web server:
 ```html
 <html><body><h2>Welcome to Azure! My name is my-vm.</h2></body></html>
 ```
+![Nginx Webpage Accessible](screenshots/NginxWebpageAccessible.png)
 
 3. Verified access through a web browser using the VM's public IP address.
 
