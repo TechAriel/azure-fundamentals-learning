@@ -16,6 +16,8 @@
 4. Reviewed and created the storage account.
 5. Navigated to the newly created storage account.
 
+![Storage Account Created](screenshots/StorageAccountCreated.png)
+
 ---
 
 ## 2: Create a Blob Container
@@ -26,6 +28,8 @@
    - Name: (container name)
    - Anonymous access level: Private (no anonymous access)
 4. Created the container.
+
+![Container Private](screenshots/ContainerPrivate.png)
 
 ---
 
@@ -41,6 +45,8 @@ Result:
 - Received an error indicating the resource could not be accessed.
 - This confirmed the container was private.
 
+![Access Denied Error](screenshots/AccessDeniedError.png)
+
 ---
 
 ## 4: Change Access Level
@@ -52,8 +58,12 @@ Result:
 4. Saved the changes.
 5. Refreshed the browser tab with the blob URL.
 
+![Container Access Updated](screenshots/ContainerAccessUpdated.png)
+
 Result:
 - The image was now publicly accessible.
+
+![Blob Public Access](screenshots/BlobPublicAccess.png)
 
 ---
 
