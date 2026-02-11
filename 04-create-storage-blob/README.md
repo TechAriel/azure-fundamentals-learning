@@ -6,7 +6,7 @@
 ## Objective
 Creating an Azure Storage Account, uploading a file to Blob container storage, and configyring access permissions to allow public access to the blob.
 
-##Key Concepts Learned
+## Key Concepts Learned
 - Azure Storage Accounts
 - Blob Containers
 - Access levels and anonymous access configuration
