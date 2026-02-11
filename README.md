@@ -7,6 +7,7 @@ Each Folder represents a completed exercise or mini-project, including objective
 - Created an Azure Resource (Virtual Machine)
 - Created an Azure Virtual Machine using Azure CLI and installed Nginx
 - Configured Network Access using Network Security Groups
+- Created and Configured Azure Blob Storage
 - More coming soon...
 
 ## Tools used
