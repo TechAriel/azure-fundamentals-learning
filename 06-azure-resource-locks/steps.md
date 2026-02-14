@@ -105,7 +105,7 @@ Deletion fails due to active delete lock.
 5. Confirm by entering "delete"
 6. Complete deletion
 
-![Lock Removed](screenshots/lockedremoved.png)
+![Lock Removed](screenshots/lockremoved.png)
 
 ---
 
