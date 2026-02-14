@@ -45,6 +45,7 @@ Provides a logical boundary for managing and cleaning up deployed resources.
 Expected Behavior:
 All write operations on the resource are blocked.
 
+![Read Only Lock Added](screenshots/readonlylockadded.png)
 ---
 
 ## 4 – Attempt to Create Container
@@ -60,6 +61,8 @@ Operation fails.
 Reason:
 Read-only lock prevents management-plane write operations.
 
+![Container Error](screenshots/containererror.png)
+
 ---
 
 ## 5 – Modify Lock to Delete
@@ -70,10 +73,14 @@ Read-only lock prevents management-plane write operations.
    Read-only → Delete
 4. Click OK
 
+![Delete Lock Set](screenshots/deletelockset.png)
+
 Now:
 - Container creation succeeds
 - Configuration updates allowed
 - Resource deletion blocked
+
+![Container Created](screenshots/containercreated.png)
 
 ---
 
@@ -84,6 +91,8 @@ Now:
 
 Result:
 Deletion fails due to active delete lock.
+
+![Delete blocked](screenshots/deleteblocked.png)
 
 ---
 
@@ -96,6 +105,12 @@ Deletion fails due to active delete lock.
 5. Confirm by entering "delete"
 6. Complete deletion
 
+![Lock Removed](screenshots/lockedremoved.png)
+
+---
+
+![Delete Unblocked](screenshots/deleteunblocked.png)
+
 ---
 
 ## 8 – Cleanup Resource Group
@@ -106,6 +121,8 @@ Deletion fails due to active delete lock.
 4. Confirm deletion
 
 All associated resources are removed.
+
+![Container Deleted](screenshots/containerdeleted.png)
 
 ---
 
