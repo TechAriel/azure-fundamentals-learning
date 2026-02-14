@@ -20,6 +20,8 @@ The workload includes:
 1. Navigated to the Azure Pricing Calculator.
 2. Cleared any existing estimates.
 
+![Pricing Calculator](screenshots/PricingCalculator.png)
+
 ---
 
 ## 3. Add Required Services
@@ -44,6 +46,8 @@ Configured:
 
 This represents two always-on production VMs.
 
+![Vm Configuration](screenshots/VmConfiguration.png)
+
 ---
 
 ## 5. Configure Azure SQL Database
@@ -60,6 +64,8 @@ Configured:
 
 This configuration supports moderate production workloads.
 
+![Sql Configuration](screenshots/SqlConfiguration.png)
+
 ---
 
 ## 6. Configure Application Gateway
@@ -75,6 +81,8 @@ Configured:
 
 This provides secure load balancing and traffic management.
 
+![Application Gateway Config](screenshots/ApplicationGatewayConfig.png)
+
 ---
 
 ## Step 7: Review Estimated Costs
@@ -85,6 +93,8 @@ Reviewed:
 - Cost contribution per service
 - Currency adjustments
 - Export and share options
+
+![Total Cost Estimate](screenshots/TotalCostEstimate.png)
 
 ---
 
