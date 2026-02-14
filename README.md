@@ -8,6 +8,7 @@ Each Folder represents a completed exercise or mini-project, including objective
 - Created an Azure Virtual Machine using Azure CLI and installed Nginx
 - Configured Network Access using Network Security Groups
 - Created and Configured Azure Blob Storage
+- Estimated Workload Costs Using Azure Pricing Calculator
 - More coming soon...
 
 ## Tools used
