@@ -11,7 +11,7 @@ Each Folder represents a completed exercise or mini-project, including objective
 - Estimated Workload Costs Using Azure Pricing Calculator
 - Azure Resource Locks (Infrastructure Governance)
 - Implemented ARM resource locks (Read-only & Delete) to protect cloud resources from accidental modification and deletion.
-- More coming soon...
+
 
 ## Tools used
 - Microsoft Azure Portal
